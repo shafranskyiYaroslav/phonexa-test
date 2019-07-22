@@ -129,37 +129,68 @@ class UserForm extends React.Component {
             </div>
             <div className='label-div'>
               <label>
-                <input name='lastName' value={this.state.lastName} onChange={this.handleClick} placeholder='Last Name*'></input>
+                <input
+                name='lastName'
+                value={this.state.lastName}
+                onChange={this.handleClick}
+                placeholder='Last Name*'
+                style={this.state.formErrors.lastName.length > 0 ? {borderColor: 'red'} : {borderColor: '#b4b1a5'}}></input>
                 <p className='error-p'>{this.state.formErrors.lastName}</p>
               </label>
             </div>
             <div className='label-div'>
               <label>
-                <input name='login' value={this.state.login} onChange={this.handleClick} placeholder='Login*'></input>
+                <input
+                name='login'
+                value={this.state.login}
+                onChange={this.handleClick}
+                placeholder='Login*'
+                style={this.state.formErrors.login.length > 0 ? {borderColor: 'red'} : {borderColor: '#b4b1a5'}}></input>
                 <p className='error-p'>{this.state.formErrors.login}</p>
               </label>
             </div>
             <div className='label-div'>
               <label>
-                <input name='email' value={this.state.email} onChange={this.handleClick} placeholder='Email*'></input>
+                <input
+                name='email'
+                value={this.state.email}
+                onChange={this.handleClick}
+                placeholder='Email*'
+                style={this.state.formErrors.email.length > 0 ? {borderColor: 'red'} : {borderColor: '#b4b1a5'}}></input>
                 <p className='error-p'>{this.state.formErrors.email}</p>
               </label>
             </div>
             <div className='label-div'>
               <label>
-                <input name='companyName' value={this.state.companyName} onChange={this.handleClick} placeholder='Company Name'></input>
+                <input
+                name='companyName'
+                value={this.state.companyName}
+                onChange={this.handleClick}
+                placeholder='Company Name'></input>
                 <p></p>
               </label>
             </div>
             <div className='label-div'>
               <label>
-                <input name='password' type='password' value={this.state.password} onChange={this.handleClick} placeholder='Password*'></input>
+                <input
+                name='password'
+                type='password'
+                value={this.state.password}
+                onChange={this.handleClick}
+                placeholder='Password*'
+                style={this.state.formErrors.password.length > 0 ? {borderColor: 'red'} : {borderColor: '#b4b1a5'}}></input>
                 <p className='error-p'>{this.state.formErrors.password}</p>
               </label>
             </div>
             <div className='label-div'>
               <label>
-                <input name='confirmPassword' type='password' value={this.state.confirmPassword} onChange={this.handleClick} placeholder='Confirm Password*'></input>
+                <input
+                name='confirmPassword'
+                type='password'
+                value={this.state.confirmPassword}
+                onChange={this.handleClick}
+                placeholder='Confirm Password*'
+                style={this.state.formErrors.confirmPassword.length > 0 ? {borderColor: 'red'} : {borderColor: '#b4b1a5'}}></input>
                 <p className='error-p'>{this.state.formErrors.confirmPassword}</p>
               </label>
             </div>
