@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/phonexa-test/precache-manifest.7d8869a46f492f93dc8b71f97205b769.js"
+  "/phonexa-test/precache-manifest.f6a4c5868ab27ddfb5b0c3f364794e53.js"
 );
 
 self.addEventListener('message', (event) => {

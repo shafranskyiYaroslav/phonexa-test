@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ed7d4b3cb9a2b48e47112dfa1bc71d2c",
+    "revision": "3c1255728bbcdbafcf6b03a05461fb0b",
     "url": "/phonexa-test/index.html"
   },
   {
-    "revision": "d7737700f843a87e37c3",
+    "revision": "984f6a4de0945ab55232",
     "url": "/phonexa-test/static/css/main.1a3be4ec.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/phonexa-test/static/js/2.612d496e.chunk.js"
   },
   {
-    "revision": "d7737700f843a87e37c3",
-    "url": "/phonexa-test/static/js/main.e367092c.chunk.js"
+    "revision": "984f6a4de0945ab55232",
+    "url": "/phonexa-test/static/js/main.8b2cd4af.chunk.js"
   },
   {
     "revision": "df072699b5bf1d578522",
