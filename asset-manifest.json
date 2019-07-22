@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/phonexa-test/static/css/main.1a3be4ec.chunk.css",
+    "main.js": "/phonexa-test/static/js/main.e367092c.chunk.js",
+    "main.js.map": "/phonexa-test/static/js/main.e367092c.chunk.js.map",
+    "runtime~main.js": "/phonexa-test/static/js/runtime~main.832265b8.js",
+    "runtime~main.js.map": "/phonexa-test/static/js/runtime~main.832265b8.js.map",
+    "static/js/2.612d496e.chunk.js": "/phonexa-test/static/js/2.612d496e.chunk.js",
+    "static/js/2.612d496e.chunk.js.map": "/phonexa-test/static/js/2.612d496e.chunk.js.map",
+    "index.html": "/phonexa-test/index.html",
+    "precache-manifest.7d8869a46f492f93dc8b71f97205b769.js": "/phonexa-test/precache-manifest.7d8869a46f492f93dc8b71f97205b769.js",
+    "service-worker.js": "/phonexa-test/service-worker.js",
+    "static/css/main.1a3be4ec.chunk.css.map": "/phonexa-test/static/css/main.1a3be4ec.chunk.css.map",
+    "static/media/App.css": "/phonexa-test/static/media/background.1bb6787b.jpg"
+  }
+}
